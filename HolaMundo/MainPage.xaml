@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HolaMundo.MainPage">
+
+    <StackLayout>
+        <Label Text="Mi Primer APK" FontSize="50" /> 
+
+        <ImageButton  Aspect="AspectFit"
+                HorizontalOptions="Center"
+            Source="https://as01.epimg.net/meristation/imagenes/2013/12/23/noticia/1387811760_232378_1532594988_portada_normal.jpg" >
+
+        </ImageButton>
+
+
+        <WebView Source="https://webappshn.com/flopez/sesion1.html"
+         VerticalOptions="FillAndExpand" />
+
+
+        <Entry Keyboard="Email"
+       Placeholder="Enter email address"
+       VerticalOptions="CenterAndExpand" />
+
+        <Button  Text="Dar Clic" BackgroundColor="Bisque" />
+
+        <Switch IsToggled="false"
+        HorizontalOptions="Center"
+        VerticalOptions="CenterAndExpand" />
+
+        <DatePicker Format="D"
+            VerticalOptions="CenterAndExpand" />
+
+
+
+
+    </StackLayout>
+
+</ContentPage>

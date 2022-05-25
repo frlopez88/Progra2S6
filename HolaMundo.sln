@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaMundo.Android", "HolaMundo.Android\HolaMundo.Android.csproj", "{D942A505-AF16-4727-9A92-44AB0AA8EA6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaMundo", "HolaMundo\HolaMundo.csproj", "{5B34E878-497F-464D-8753-A96049EC7B52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D942A505-AF16-4727-9A92-44AB0AA8EA6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D942A505-AF16-4727-9A92-44AB0AA8EA6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D942A505-AF16-4727-9A92-44AB0AA8EA6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D942A505-AF16-4727-9A92-44AB0AA8EA6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B34E878-497F-464D-8753-A96049EC7B52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B34E878-497F-464D-8753-A96049EC7B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B34E878-497F-464D-8753-A96049EC7B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B34E878-497F-464D-8753-A96049EC7B52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BDBB479-718C-477A-8E8B-95F5092D3264}
+	EndGlobalSection
+EndGlobal
