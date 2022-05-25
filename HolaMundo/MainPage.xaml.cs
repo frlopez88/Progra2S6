@@ -14,5 +14,16 @@ namespace HolaMundo
         {
             InitializeComponent();
         }
+
+
+
+        void CambioDeTexto(System.Object sender, System.EventArgs e)
+        {
+
+            String txt = Entrada.Text;
+
+            Pizarra.Text = txt;
+
+        }
     }
 }

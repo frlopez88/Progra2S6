@@ -3,36 +3,48 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HolaMundo.MainPage">
 
-    <StackLayout>
-        <Label Text="Mi Primer APK" FontSize="50" /> 
+    <Grid>
 
-        <ImageButton  Aspect="AspectFit"
-                HorizontalOptions="Center"
-            Source="https://as01.epimg.net/meristation/imagenes/2013/12/23/noticia/1387811760_232378_1532594988_portada_normal.jpg" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".25*"></RowDefinition>
+            <RowDefinition Height="*" ></RowDefinition>
+            <RowDefinition Height="*" ></RowDefinition>
+            <RowDefinition Height=".25*" ></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            
+            <ColumnDefinition Width="*" ></ColumnDefinition>
+            <ColumnDefinition Width="*" ></ColumnDefinition>
+            <ColumnDefinition Width="*" ></ColumnDefinition>
 
-        </ImageButton>
-
-
-        <WebView Source="https://webappshn.com/flopez/sesion1.html"
-         VerticalOptions="FillAndExpand" />
-
-
-        <Entry Keyboard="Email"
-       Placeholder="Enter email address"
-       VerticalOptions="CenterAndExpand" />
-
-        <Button  Text="Dar Clic" BackgroundColor="Bisque" />
-
-        <Switch IsToggled="false"
-        HorizontalOptions="Center"
-        VerticalOptions="CenterAndExpand" />
-
-        <DatePicker Format="D"
-            VerticalOptions="CenterAndExpand" />
+        </Grid.ColumnDefinitions>
 
 
+        <Label FontSize="35" x:Name="Pizarra" Text="Texto a Actualizar"
+               Grid.Column="0" Grid.Row="1"
+               Grid.ColumnSpan="3"
+               TextColor="White"
+               BackgroundColor="#3d5dba"
+
+               />
 
 
-    </StackLayout>
+        <Entry x:Name="Entrada" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="3" ></Entry>
+
+        <Button Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="3" Text="Actualizar"
+                BackgroundColor="#d6b381"
+                TextColor="White"
+                Clicked="CambioDeTexto"
+                ></Button>
+
+        <Image Source="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/CEUTEC_HONDURAS.png/1200px-CEUTEC_HONDURAS.png"
+               Grid.Column="0"
+               Grid.Row="0"
+               Grid.ColumnSpan="3"
+
+
+               />
+
+    </Grid>
 
 </ContentPage>
